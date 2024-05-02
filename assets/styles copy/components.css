@@ -1,0 +1,25 @@
+.main-header {
+    background-color: var(--color-purple);
+}
+
+.main-footer{
+    background-color: var(--color-dark);
+    color: var(--color-lightest);
+  
+    h4{
+      padding-top: var(--m);
+      padding-left: var(--s);
+    }
+  
+    /* stylelint-disable-next-line no-descending-specificity */
+    ul{
+      padding-top: var(--quat);
+      padding-bottom: var(--s);
+      margin-left: var(--s);
+  
+      /* stylelint-disable-next-line no-descending-specificity */
+      li{
+        padding-top: var(--quat);
+      }
+    }
+  }
