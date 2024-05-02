@@ -19,6 +19,12 @@
     img {
         filter: invert(1);
     }
+
+    @media screen and (width <= 750px) {
+        .main-header .header-extension {
+          display: none;
+        }
+    }
 }
 
 
@@ -79,13 +85,34 @@
 .table-view {
     margin-top: var(--l);
     display: grid;
+
     gap: var(--s);
 
     .table-item {
         border-top: 2px solid var(--color-black);
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+
+        .tag-list {
+            display: flex;
+            gap: var(--xxs);
+            
+            li {
+                font-size: var(--s);
+                color: var(--color-white);
+                background: var(--color-red);
+                padding: var(--quat);
+                border-radius: 5px;
+            }
+        }
+    }
+
+    @media screen and (width <= 750px) {
+        .table-item .table-extension {
+          display: none;
+        }
     }
 }
 
