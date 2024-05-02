@@ -1,1 +1,0 @@
-Als Schriftfamilie kommt Roboto (Condensed) zum Einsatz.
